@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Er. Adarsh Kumar — Java Developer & Web Developer portfolio.">
+  <title>Er. Adarsh Kumar | Java Developer & Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">&lt; Er. Adarsh Kumar <span>/&gt;</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="resume" href="#" onclick="downloadResume(event)">Resume ↗</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Er. Adarsh <span>Kumar</span></h1>
+        <h2>Java Developer <i>&amp;</i> Web Developer</h2>
+        <p class="hero-text">I’m a B.Tech CSE student passionate about building useful web experiences and solving problems with code. I’m currently strengthening my Data Structures &amp; Algorithms skills while building projects with Java, HTML, CSS and JavaScript.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View Projects <b>→</b></a>
+          <a class="btn ghost" href="#contact">Contact Me <b>✉</b></a>
+        </div>
+        <div class="socials">
+           <a href="https://github.com/Adarshkumar097" target="_blank" aria-label="GitHub">GitHub</a> 
+           <a href="https://www.linkedin.com/in/adarsh-kumar-15385b426?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+           <a href="https://adarshkumar097.github.io/Currency-converter/" target="_blank" aria-label="Portfolio">Portfolio</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ak5655980@gmail.com" target="_blank">
+    Email
+</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit"></div>
+        <div class="code-card">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Er. Adarsh Kumar"</span>,
+  role: <span class="green">"Java & Web Developer"</span>,
+  passion: [<span class="green">"Code"</span>, <span class="green">"DSA"</span>],
+  goal: <span class="green">"Build & Learn"</span>
+};</code></pre>
+        </div>
+        <div class="hero-badge">KEEP<br><span>CODING</span> ↗</div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-title reveal"><span>01</span><h2>About Me</h2></div>
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="lead">I’m Er. Adarsh Kumar, a B.Tech CSE student with a strong interest in software development.</p>
+          <p>I enjoy turning ideas into working projects, learning how applications work, and improving my problem-solving ability through Data Structures &amp; Algorithms. My current focus is Java development and frontend web development, with a goal of becoming a strong software engineer.</p>
+        </div>
+        <div class="facts reveal">
+          <div><small>Name</small><strong>Er. Adarsh Kumar</strong></div>
+          <div><small>Focus</small><strong>Java • DSA • Web</strong></div>
+          <div><small>Education</small><strong>B.Tech CSE — Ongoing</strong></div>
+          <div><small>Based in</small><strong>Uttar Pradesh, India</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-title reveal"><span>02</span><h2>Skills</h2></div>
+      <div class="skill-grid">
+        <article class="skill reveal"><div class="icon">☕</div><h3>Java</h3><p>OOP, collections, file handling, exception handling and core programming.</p></article>
+        <article class="skill reveal"><div class="icon">⌘</div><h3>DSA</h3><p>Arrays, strings, recursion, linked lists, stacks, queues and problem solving.</p></article>
+        <article class="skill reveal"><div class="icon">&lt;/&gt;</div><h3>HTML</h3><p>Semantic structure, forms, accessibility and clean page architecture.</p></article>
+        <article class="skill reveal"><div class="icon">#</div><h3>CSS</h3><p>Responsive layouts, Flexbox, Grid, animations and modern UI design.</p></article>
+        <article class="skill reveal"><div class="icon">JS</div><h3>JavaScript</h3><p>DOM manipulation, events, logic and interactive web experiences.</p></article>
+        <article class="skill reveal"><div class="icon">UI</div><h3>Frontend</h3><p>Building responsive and user-friendly interfaces from ideas and designs.</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-title reveal"><span>03</span><h2>Featured Projects</h2></div>
+      <div class="project-grid">
+        <article class="project reveal"><div class="project-top"><span>01</span><span>JavaScript</span></div><h3>Simple Calendar</h3><p>A clean interactive calendar project focused on date navigation and a simple user experience.</p><div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div><a href="#" onclick="projectAlert(event)">View Project →</a></article>
+        <article class="project reveal"><div class="project-top"><span>02</span><span>JavaScript</span></div><h3>To-Do List</h3><p>A practical task manager interface for adding, tracking and completing everyday tasks.</p><div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div><a href="#" onclick="projectAlert(event)">View Project →</a></article>
+        <article class="project reveal"><div class="project-top"><span>03</span><span>Game</span></div><h3>Rock Paper Scissors</h3><p>A browser game implementing user-vs-computer gameplay and result logic.</p><div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div><a href="#" onclick="projectAlert(event)">View Project →</a></article>
+        <article class="project reveal"><div class="project-top"><span>04</span><span>API / Logic</span></div><h3>Currency Converter</h3><p>A currency conversion app designed to make exchange calculations simple and interactive.</p><div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div><a href="https://adarshkumar097.github.io/Currency-converter/" >View Project →</a></article>
+        <article class="project reveal"><div class="project-top"><span>05</span><span>Java</span></div><h3>ATM Logic System</h3><p>A Java-based ATM simulation focusing on balance checks, withdrawals, deposits and transaction logic.</p><div class="tags"><b>Java</b><b>OOP</b><b>Logic</b></div><a href="#" onclick="projectAlert(event)">View Project →</a></article>
+        <article class="project reveal"><div class="project-top"><span>06</span><span>UI Design</span></div><h3>Movie Website UI</h3><p>A responsive movie-focused website interface built to practice layout, styling and frontend interactions.</p><div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div><a href="#" onclick="projectAlert(event)">View Project →</a></article>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="section-title reveal"><span>04</span><h2>Education &amp; Journey</h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span class="dot"></span><small>Currently</small><h3>B.Tech — Computer Science &amp; Engineering</h3><p>Building a foundation in programming, DSA, databases and web development.</p></div>
+        <div class="timeline-item reveal"><span class="dot"></span><small>Learning Focus</small><h3>Java + DSA + Frontend</h3><p>Practicing problem solving and creating projects to turn concepts into real applications.</p></div>
+        <div class="timeline-item reveal"><span class="dot"></span><small>Next Goal</small><h3>Software Engineering Career</h3><p>Looking for opportunities where I can learn, contribute and grow as a developer.</p></div>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="cta-box reveal">
+        <p class="eyebrow">LET'S BUILD SOMETHING</p>
+        <h2>Always learning.<br><span>Always building.</span></h2>
+        <a class="btn primary" href="#contact">Let’s Connect →</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-title reveal"><span>05</span><h2>Get In Touch</h2></div>
+      <div class="contact-grid">
+        <div class="reveal"><h3>Have an opportunity?</h3><p>I’m open to internships, projects and opportunities where I can learn and contribute.</p></div>
+        <div class="contact-links reveal">
+          <a href="mailto:ak5655980@gmail.com"><small>Email</small><strong>ak5655980@gmail.com ↗</strong></a>
+           <a href="https://github.com/Adarshkumar097" target="_blank">
+    <small>GitHub</small>
+    <strong>GitHub Profile ↗</strong>
+</a>
+          <a href="https://www.linkedin.com/in/adarsh-kumar-15385b426?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+    <small>LinkedIn</small>
+    <strong>LinkedIn Profile ↗</strong>
+</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Er. Adarsh Kumar</span><span>Designed &amp; built with code.</span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
